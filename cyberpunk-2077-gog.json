@@ -1,0 +1,59 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 24989,
+            "game_id": 27811,
+            "game_slug": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "year": 2020,
+            "user": "rivil",
+            "runner": "wine",
+            "slug": "cyberpunk-2077-gog",
+            "version": "wine",
+            "description": "",
+            "notes": "",
+            "credits": "",
+            "created_at": "2020-12-11T08:04:17.717000Z",
+            "updated_at": "2022-01-01T15:45:23.284113Z",
+            "draft": false,
+            "published": true,
+            "published_by": 64834,
+            "rating": "",
+            "steamid": 1091500,
+            "humbleid": "",
+            "humblestoreid": "",
+            "humblestoreid_real": "",
+            "script": {
+                "files": [
+                    {
+                        "setup": "N/A:Please select the GOG.com Windows installer."
+                    }
+                ],
+                "game": {
+                    "arch": "win64",
+                    "exe": "drive_c/GOG Games/Cyberpunk 2077/Launch Cyberpunk 2077.lnk",
+                    "gogid": 1423049311,
+                    "prefix": "$GAMEDIR"
+                },
+                "installer": [
+                    {
+                        "task": {
+                            "args": "/SP- /NOCANCEL /SILENT /SUPPRESSMSGBOXES /DIR=\"C:/GOG Games/Cyberpunk 2077\"",
+                            "executable": "setup",
+                            "name": "wineexec",
+                            "prefix": "$GAMEDIR"
+                        }
+                    }
+                ],
+                "wine": {
+                    "dxvk": true,
+                    "esync": true
+                }
+            },
+            "content": "files:\n- setup: N/A:Please select the GOG.com Windows installer.\ngame:\n  arch: win64\n  exe: drive_c/GOG Games/Cyberpunk 2077/Launch Cyberpunk 2077.lnk\n  gogid: 1423049311\n  prefix: $GAMEDIR\ninstaller:\n- task:\n    args: /SP- /NOCANCEL /SILENT /SUPPRESSMSGBOXES /DIR=\"C:/GOG Games/Cyberpunk 2077\"\n    executable: setup\n    name: wineexec\n    prefix: $GAMEDIR\nwine:\n  dxvk: true\n  esync: true\n"
+        }
+    ]
+}
